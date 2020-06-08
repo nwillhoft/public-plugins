@@ -33,6 +33,7 @@ sub update_conf {
   ## Used to display the version in the footer
   $SiteDefs::ENSEMBL_COVID19_VERSION  = 1;
   $SiteDefs::ENSEMBL_RELEASE_DATE     = 'May 2020';
+  $SiteDefs::FIRST_RELEASE_VERSION    = 100; ## Don't update this!
 
   $SiteDefs::ENSEMBL_STATIC_SERVER    = '';
 
